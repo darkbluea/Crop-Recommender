@@ -56,6 +56,7 @@ def main():
             col1.write('''
 		    ## Results 🔍 
 		    ''')
+            col1.write(f"{prediction.item()}")
             col1.success(f"{prediction.item().title()} are recommended by the A.I for your farm.")
       #code for html ☘️ 🌾 🌳 👨‍🌾  🍃
 
